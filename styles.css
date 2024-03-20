@@ -70,7 +70,7 @@ header {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 .row2 h3 {
     font-size: 36px;
@@ -96,4 +96,67 @@ header {
     border: #3882F6 solid 3px;
     border-radius: 10px;
 }
-/* add row here */
+
+.row3 {
+    display: flex;
+    padding: 100px 550px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.row3 p {
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+    font-style:italic;
+}
+.quote {
+    display:flex;
+    justify-content: space-between;
+    width: 700px;
+}
+h6 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    font-weight:600;
+}
+
+.row4 {
+    margin: 100px 300px;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    padding: 70px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:8px;
+}
+.r4-left h3 {
+    font-size:24px;
+    margin:0;
+    padding:0;
+}
+.r4-left p {
+    margin:0;
+    padding:0;
+}
+.r4-btn {
+    border: solid #F9FAF8 2px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 16px;
+}
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+footer p {
+    padding: 20px 10px;
+    font-size: 18px;
+}
